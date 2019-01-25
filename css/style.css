@@ -1,0 +1,199 @@
+.logo-top{  
+    width: 114px;
+    margin: 0 auto;
+    margin-left: 21%;
+}
+.btn-container{
+	margin: 1em 0;
+}
+.inline-layout label{
+	margin-left: 1em;	
+}
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.btn.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: auto;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+.addborder{
+border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+
+}
+.status-in{
+  background: red;
+    padding: 4px 9px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+.status-ac{  
+  background: #8cc53b;
+    padding: 4px 9px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+.toolbar-edit{
+      background: transparent;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #007bff;
+    border-radius: 4px;
+}
+
+.toolbar-delete{
+      background: transparent;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: red; 
+    border-radius: 4px;
+}
+.toolbar-edit:hover{
+ background: #ea9514 !important;
+ color:#fff;
+}
+.toolbar-delete:hover{
+ background: #ea9514 !important;
+ color:#fff;
+}
+.sidebar .nav-item .nav-link span{
+      font-size: 0.9rem !important;
+}
+
+#img-upload{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 1em;
+}
+.modal-header{
+    background: #FF9800;
+}
+.icon-box{
+      text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.avatar{
+  width: 65%;
+  text-align: center;  
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid;
+}
+.avatar-content{
+  background: #2f3235;
+}
+.avatar-content a.nav-link{
+  text-align: center !important;
+}
+.avatar-content a.first-child{
+    padding-bottom: 0;
+}
+.avatar-content a span{
+  text-align: center;
+}
+label.attach-property-label{
+  background: #d5efb2;
+  padding: 5px 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin-left: 0;
+  border-radius: 4px;
+}
+nav a.navbar-brand.mr-1{
+  min-width: 200px;
+}
+.borderme{
+    border: 2px solid #ea9b29;
+    padding: 10px;
+}
+.primary-img{
+  height: 200px;
+  border: 1px solid rgba(0,0,0,0.2);
+  text-align: center;
+}
+.primary-img img{
+  margin: 0 auto;
+  height: 200px;
+}
+.jumbotron.mybox{
+      box-shadow: 0px 1px 6px;
+    background: #fff;
+}
+.btn-container{
+      width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    /* margin-top: 1em; */
+    padding-top: 1em;
+    margin-left: 1em;
+}
+
+#dataTable td,#dataTable tr,#dataTable th{
+  font-size: 13px !important;
+}
